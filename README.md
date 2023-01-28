@@ -1,3 +1,14 @@
+This link is the code demonstration of the project for the Statistical Machine Learning class at Arizona State University. 
+**Link: https://colab.research.google.com/drive/1GAs2ca03PN-RTRrJLOXMiFVaPcovAGs2?usp=sharing**
+
+The highlights of the project include: 
+- Performed supervised learning for an NLP & CV application with Flickr8K (large dataset with 8000 images) to create an image captioning model using PyTorch; utilized encoder, decoder, attention network, and beam search
+- Evaluated the model using Google Conceptual Captions dataset and achieved scores for the SacreBLEU algorithm (12.42%), METEOR metric (3.63%), CIDEr metric (0.79%), and ROUGE-1 metric (13.67%) 
+- Teamed with 5 members to apply transfer learning by re-training the image captioning model on Flickr8K with a pre-trained model on the COCO dataset; recorded 79.9% better performance (SacreBLEU - 33.44%) compared to VIT-GPT2 (trained on COCO dataset)
+- Pioneered an image-to-images pipeline with image-to-caption model, caption-to-story (using Playground API from OpenAI) and story-to-images (using Stable Diffusion Model)
+
+---
+
 This is a **[PyTorch](https://pytorch.org) Tutorial to Image Captioning**.
 
 This is the first in [a series of tutorials](https://github.com/sgrvinod/Deep-Tutorials-for-PyTorch) I'm writing about _implementing_ cool models on your own with the amazing PyTorch library.
